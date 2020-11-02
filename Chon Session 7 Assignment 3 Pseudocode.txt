@@ -1,0 +1,24 @@
+function main()
+
+    output "Would you like to start this program? Yes/No "
+    input a
+
+    loop while a = "yes"
+        output "What is your last name? "
+        input name
+
+        output "Test score 1: "
+        input one
+
+        output "Test score 2: "
+        input two
+
+        avg = (one + two) / 2
+
+        output "Last name: " + name + " Avg score: " + avg
+
+        output "Would you like to start the program again? Yes/No "
+        input a
+
+    end while
+end 

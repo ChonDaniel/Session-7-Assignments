@@ -1,0 +1,22 @@
+def main():
+    print("Would you like to start this program? Yes/No ")
+    a = input()
+
+    while a == "yes":
+        print("What is your last name? ")
+        name = input()
+        
+        print("Test score 1: ")
+        one = int(input())
+        
+        print("Test score 2: ")
+        two = int(input())
+        
+        avg = float(one + two) / 2
+        
+        print("Last name: " + name + " Avg score: " + str(avg))
+        
+        print("Would you like to start the program again? Yes/No ")
+        
+        a = input()
+main()

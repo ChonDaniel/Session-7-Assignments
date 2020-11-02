@@ -1,0 +1,8 @@
+def main():
+    start = 1
+    stop = 25
+    while start <= stop:
+        print(start)
+        start = start + 2
+
+main()

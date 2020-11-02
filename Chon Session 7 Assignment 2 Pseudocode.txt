@@ -1,0 +1,16 @@
+function main()
+    
+    output "What number would you like to start at? "
+    input start
+   
+    output "What number would you like to stop at? "
+    input stop
+    
+    output "What is the increment number? "
+    input increment
+    
+    loop while start <= stop
+        output start
+        start = start + increment
+    end while
+end 
